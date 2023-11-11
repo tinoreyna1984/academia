@@ -58,7 +58,7 @@ public class AuthenticationController {
             return new ResponseEntity<>(response, HttpStatus.INTERNAL_SERVER_ERROR);
         }catch (AuthenticationException e) {
             response.put("error", e.getMessage());
-            response.put("mensaje", "Error en autenticación");
+            response.put("mensaje", e.getMessage());
             return new ResponseEntity<>(response, HttpStatus.FORBIDDEN);
         }
     }
