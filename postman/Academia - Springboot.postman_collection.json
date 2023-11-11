@@ -17,7 +17,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXN0TmFtZSI6IkNSTSIsInJvbGUiOiJBRE1JTklTVFJBVE9SIiwicGVybWlzc2lvbnMiOlt7ImF1dGhvcml0eSI6IlNBVkVfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6Ik1PRElGWV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiREVMRVRFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJSRUFEX0FMTF9VU0VSUyJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9BRE1JTklTVFJBVE9SIn1dLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXJJZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjk5Mzg5NDYyLCJleHAiOjE2OTkzOTEyNjJ9.apjfDYFr04PLbAyUqIF7jMM3BG02ipyM-8TLzQ2lMWQ",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXN0TmFtZSI6IkNSTSIsInJvbGUiOiJBRE1JTklTVFJBVE9SIiwicGVybWlzc2lvbnMiOlt7ImF1dGhvcml0eSI6IlNBVkVfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6Ik1PRElGWV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiREVMRVRFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJSRUFEX0FMTF9VU0VSUyJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9BRE1JTklTVFJBVE9SIn1dLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXJJZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjk5NjY4MjczLCJleHAiOjE2OTk2NzAwNzN9.Tf4mQrtJi3D9FXmqL0A4vktl1b1QnDKS7o_KKIbqFUY",
 									"type": "string"
 								}
 							]
@@ -39,17 +39,17 @@
 					},
 					"response": [
 						{
-							"name": "OK - 200",
+							"name": "GET - Usuarios - OK - 200",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "http://localhost:4004/api/users",
+									"raw": "http://localhost:4007/api/users",
 									"protocol": "http",
 									"host": [
 										"localhost"
 									],
-									"port": "4004",
+									"port": "4007",
 									"path": [
 										"api",
 										"users"
@@ -106,7 +106,7 @@
 								},
 								{
 									"key": "Date",
-									"value": "Mon, 23 Oct 2023 21:25:54 GMT"
+									"value": "Sat, 11 Nov 2023 02:05:03 GMT"
 								},
 								{
 									"key": "Keep-Alive",
@@ -118,7 +118,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "[\n    {\n        \"id\": 1,\n        \"username\": \"admin\",\n        \"password\": \"$2a$10$XsgubHfexQtsv96lfIEca.9j2iEXjw7tmoODUfMeHmIrmX5HjrcX2\",\n        \"email\": \"admin@mail.com\",\n        \"name\": \"Administrador\",\n        \"lastName\": \"CRM\",\n        \"role\": \"ADMINISTRATOR\",\n        \"enabled\": true,\n        \"accountNonExpired\": true,\n        \"credentialsNonExpired\": true,\n        \"authorities\": [\n            {\n                \"authority\": \"SAVE_ONE_USER\"\n            },\n            {\n                \"authority\": \"MODIFY_ONE_USER\"\n            },\n            {\n                \"authority\": \"DELETE_ONE_USER\"\n            },\n            {\n                \"authority\": \"READ_ALL_USERS\"\n            },\n            {\n                \"authority\": \"ROLE_ADMINISTRATOR\"\n            }\n        ],\n        \"accountNonLocked\": true\n    },\n    {\n        \"id\": 2,\n        \"username\": \"treyna\",\n        \"password\": \"$2a$10$KL2sAlhxRz061nDYNI0nl.W7VvNKyh597OkKGPUOIDK5hXt7d9yu2\",\n        \"email\": \"treyna@mail.com\",\n        \"name\": \"Tino\",\n        \"lastName\": \"Reyna\",\n        \"role\": \"USER\",\n        \"enabled\": true,\n        \"accountNonExpired\": true,\n        \"credentialsNonExpired\": true,\n        \"authorities\": [\n            {\n                \"authority\": \"READ_ALL_USERS\"\n            },\n            {\n                \"authority\": \"ROLE_USER\"\n            }\n        ],\n        \"accountNonLocked\": true\n    },\n    {\n        \"id\": 3,\n        \"username\": \"glorentzen\",\n        \"password\": \"$2a$10$KL2sAlhxRz061nDYNI0nl.W7VvNKyh597OkKGPUOIDK5hXt7d9yu2\",\n        \"email\": \"glorentzen@mail.com\",\n        \"name\": \"Gabriela\",\n        \"lastName\": \"Lorentzen\",\n        \"role\": \"USER\",\n        \"enabled\": true,\n        \"accountNonExpired\": true,\n        \"credentialsNonExpired\": true,\n        \"authorities\": [\n            {\n                \"authority\": \"READ_ALL_USERS\"\n            },\n            {\n                \"authority\": \"ROLE_USER\"\n            }\n        ],\n        \"accountNonLocked\": true\n    }\n]"
+							"body": "[\n    {\n        \"id\": 1,\n        \"username\": \"admin\",\n        \"password\": \"$2a$10$QSXVQbkqsa/k87R.YTSeAeHePHY.LESHNT8WL5RU3GLII6Wcae.76\",\n        \"email\": \"admin@mail.com\",\n        \"name\": \"Administrador\",\n        \"lastName\": \"CRM\",\n        \"role\": \"ADMINISTRATOR\",\n        \"accountNonLocked\": true,\n        \"accountNonExpired\": true,\n        \"credentialsNonExpired\": true,\n        \"enabled\": true,\n        \"failedAttempts\": 0,\n        \"lockTime\": null\n    },\n    {\n        \"id\": 2,\n        \"username\": \"treyna\",\n        \"password\": \"$2a$10$ajrJiSEZbDBLnHsMJJz5i.iqdxmLRWeAC3vmQ9D5fxwreDb4hK6p6\",\n        \"email\": \"treyna@mail.com\",\n        \"name\": \"Tino\",\n        \"lastName\": \"Reyna\",\n        \"role\": \"USER\",\n        \"accountNonLocked\": true,\n        \"accountNonExpired\": true,\n        \"credentialsNonExpired\": true,\n        \"enabled\": true,\n        \"failedAttempts\": 0,\n        \"lockTime\": null\n    },\n    {\n        \"id\": 3,\n        \"username\": \"glorentzen\",\n        \"password\": \"$2a$10$ajrJiSEZbDBLnHsMJJz5i.iqdxmLRWeAC3vmQ9D5fxwreDb4hK6p6\",\n        \"email\": \"glorentzen@mail.com\",\n        \"name\": \"Gabriela\",\n        \"lastName\": \"Lorentzen\",\n        \"role\": \"USER\",\n        \"accountNonLocked\": true,\n        \"accountNonExpired\": true,\n        \"credentialsNonExpired\": true,\n        \"enabled\": true,\n        \"failedAttempts\": 0,\n        \"lockTime\": null\n    }\n]"
 						}
 					]
 				},
@@ -221,7 +221,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQURNSU5JU1RSQVRPUiIsInBlcm1pc3Npb25zIjpbeyJhdXRob3JpdHkiOiJTQVZFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJNT0RJRllfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6IkRFTEVURV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiUkVBRF9BTExfVVNFUlMifSx7ImF1dGhvcml0eSI6IlJPTEVfQURNSU5JU1RSQVRPUiJ9XSwibmFtZSI6IkFkbWluaXN0cmFkb3IiLCJzdWIiOiJhZG1pbiIsImlhdCI6MTY5NjQ4NjkyNiwiZXhwIjoxNjk2NDg4NzI2fQ.5wKwRFuNxsjX5ZI6_5rrfhMjQEttDQoOnx-5nNXNfO0",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXN0TmFtZSI6IkNSTSIsInJvbGUiOiJBRE1JTklTVFJBVE9SIiwicGVybWlzc2lvbnMiOlt7ImF1dGhvcml0eSI6IlNBVkVfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6Ik1PRElGWV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiREVMRVRFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJSRUFEX0FMTF9VU0VSUyJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9BRE1JTklTVFJBVE9SIn1dLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXJJZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjk5Njg0NTcxLCJleHAiOjE2OTk2ODYzNzF9.ccEDdqMU83XIWfFNa3SSvy6K6gluDhCI4YOLinSWdqk",
 									"type": "string"
 								}
 							]
@@ -238,12 +238,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4004/api/users",
+							"raw": "http://localhost:4007/api/users",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "4004",
+							"port": "4007",
 							"path": [
 								"api",
 								"users"
@@ -366,7 +366,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXN0TmFtZSI6IkNSTSIsInJvbGUiOiJBRE1JTklTVFJBVE9SIiwicGVybWlzc2lvbnMiOlt7ImF1dGhvcml0eSI6IlNBVkVfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6Ik1PRElGWV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiREVMRVRFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJSRUFEX0FMTF9VU0VSUyJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9BRE1JTklTVFJBVE9SIn1dLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXJJZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjk5NjUzODEzLCJleHAiOjE2OTk2NTU2MTN9.jrbpL_5OFpVdNKJV_VkUuha6dKbDPs7qA_sdDBOzujs",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXN0TmFtZSI6IkNSTSIsInJvbGUiOiJBRE1JTklTVFJBVE9SIiwicGVybWlzc2lvbnMiOlt7ImF1dGhvcml0eSI6IlNBVkVfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6Ik1PRElGWV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiREVMRVRFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJSRUFEX0FMTF9VU0VSUyJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9BRE1JTklTVFJBVE9SIn1dLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXJJZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjk5NjY4MjczLCJleHAiOjE2OTk2NzAwNzN9.Tf4mQrtJi3D9FXmqL0A4vktl1b1QnDKS7o_KKIbqFUY",
 									"type": "string"
 								}
 							]
@@ -386,7 +386,90 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "GET - Profesores - OK - 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:4007/api/profesores",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4007",
+									"path": [
+										"api",
+										"profesores"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 11 Nov 2023 02:05:36 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"nombreProfesor\": \"Juan\",\n        \"apellidosProfesor\": \"Perez\",\n        \"correo\": \"jperez@academia.com\"\n    },\n    {\n        \"id\": 2,\n        \"nombreProfesor\": \"Maria\",\n        \"apellidosProfesor\": \"Suarez\",\n        \"correo\": \"msuarez@academia.com\"\n    },\n    {\n        \"id\": 3,\n        \"nombreProfesor\": \"Jose\",\n        \"apellidosProfesor\": \"Gonzalez\",\n        \"correo\": \"jgonzalez@academia.com\"\n    }\n]"
+						}
+					]
 				},
 				{
 					"name": "GET - Profesor",
@@ -427,7 +510,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXN0TmFtZSI6IkNSTSIsInJvbGUiOiJBRE1JTklTVFJBVE9SIiwicGVybWlzc2lvbnMiOlt7ImF1dGhvcml0eSI6IlNBVkVfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6Ik1PRElGWV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiREVMRVRFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJSRUFEX0FMTF9VU0VSUyJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9BRE1JTklTVFJBVE9SIn1dLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXJJZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjk5NjU0MTExLCJleHAiOjE2OTk2NTU5MTF9.ohnh-QNTQpf0zQEFM5Hkeud-lNsDrAF00t6gtM3UP7o",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXN0TmFtZSI6IkNSTSIsInJvbGUiOiJBRE1JTklTVFJBVE9SIiwicGVybWlzc2lvbnMiOlt7ImF1dGhvcml0eSI6IlNBVkVfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6Ik1PRElGWV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiREVMRVRFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJSRUFEX0FMTF9VU0VSUyJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9BRE1JTklTVFJBVE9SIn1dLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXJJZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjk5Njg0NDU5LCJleHAiOjE2OTk2ODYyNTl9.Pcu9Bjp7D6TVhn-P3aB6B4Bz7K9Yxkc3ff_fyOZRubw",
 									"type": "string"
 								}
 							]
@@ -542,7 +625,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXN0TmFtZSI6IkNSTSIsInJvbGUiOiJBRE1JTklTVFJBVE9SIiwicGVybWlzc2lvbnMiOlt7ImF1dGhvcml0eSI6IlNBVkVfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6Ik1PRElGWV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiREVMRVRFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJSRUFEX0FMTF9VU0VSUyJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9BRE1JTklTVFJBVE9SIn1dLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXJJZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjk5NjUzODEzLCJleHAiOjE2OTk2NTU2MTN9.jrbpL_5OFpVdNKJV_VkUuha6dKbDPs7qA_sdDBOzujs",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXN0TmFtZSI6IkNSTSIsInJvbGUiOiJBRE1JTklTVFJBVE9SIiwicGVybWlzc2lvbnMiOlt7ImF1dGhvcml0eSI6IlNBVkVfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6Ik1PRElGWV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiREVMRVRFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJSRUFEX0FMTF9VU0VSUyJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9BRE1JTklTVFJBVE9SIn1dLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXJJZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjk5NjY4MjczLCJleHAiOjE2OTk2NzAwNzN9.Tf4mQrtJi3D9FXmqL0A4vktl1b1QnDKS7o_KKIbqFUY",
 									"type": "string"
 								}
 							]
@@ -562,7 +645,90 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "GET - Materias - OK - 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:4007/api/materias",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4007",
+									"path": [
+										"api",
+										"materias"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 11 Nov 2023 02:05:46 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"nombreMateria\": \"Matematicas\",\n        \"descMateria\": \"Ciencias matematicas\"\n    },\n    {\n        \"id\": 2,\n        \"nombreMateria\": \"Lenguaje\",\n        \"descMateria\": \"Idioma espannol\"\n    },\n    {\n        \"id\": 3,\n        \"nombreMateria\": \"Ciencias\",\n        \"descMateria\": \"Ciencias naturales\"\n    }\n]"
+						}
+					]
 				},
 				{
 					"name": "GET - Materia",
@@ -718,7 +884,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXN0TmFtZSI6IkNSTSIsInJvbGUiOiJBRE1JTklTVFJBVE9SIiwicGVybWlzc2lvbnMiOlt7ImF1dGhvcml0eSI6IlNBVkVfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6Ik1PRElGWV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiREVMRVRFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJSRUFEX0FMTF9VU0VSUyJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9BRE1JTklTVFJBVE9SIn1dLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXJJZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjk5NjUzODEzLCJleHAiOjE2OTk2NTU2MTN9.jrbpL_5OFpVdNKJV_VkUuha6dKbDPs7qA_sdDBOzujs",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsYXN0TmFtZSI6IkNSTSIsInJvbGUiOiJBRE1JTklTVFJBVE9SIiwicGVybWlzc2lvbnMiOlt7ImF1dGhvcml0eSI6IlNBVkVfT05FX1VTRVIifSx7ImF1dGhvcml0eSI6Ik1PRElGWV9PTkVfVVNFUiJ9LHsiYXV0aG9yaXR5IjoiREVMRVRFX09ORV9VU0VSIn0seyJhdXRob3JpdHkiOiJSRUFEX0FMTF9VU0VSUyJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9BRE1JTklTVFJBVE9SIn1dLCJuYW1lIjoiQWRtaW5pc3RyYWRvciIsInVzZXJJZCI6MSwiZW1haWwiOiJhZG1pbkBtYWlsLmNvbSIsInN1YiI6ImFkbWluIiwiaWF0IjoxNjk5NjY4MjczLCJleHAiOjE2OTk2NzAwNzN9.Tf4mQrtJi3D9FXmqL0A4vktl1b1QnDKS7o_KKIbqFUY",
 									"type": "string"
 								}
 							]
@@ -738,7 +904,90 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "GET - Aulas - OK - 200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:4007/api/aulas",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4007",
+									"path": [
+										"api",
+										"aulas"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 11 Nov 2023 02:05:24 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"codAula\": \"AULA0001\",\n        \"fechaHoraRegistro\": \"2023-04-25 13:00\",\n        \"tema\": \"Las cuatro operaciones\",\n        \"profesor\": {\n            \"id\": 1,\n            \"nombreProfesor\": \"Juan\",\n            \"apellidosProfesor\": \"Perez\",\n            \"correo\": \"jperez@academia.com\"\n        },\n        \"materia\": {\n            \"id\": 1,\n            \"nombreMateria\": \"Matematicas\",\n            \"descMateria\": \"Ciencias matematicas\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"codAula\": \"AULA0002\",\n        \"fechaHoraRegistro\": \"2023-04-25 14:00\",\n        \"tema\": \"Matematicas avanzadas\",\n        \"profesor\": {\n            \"id\": 2,\n            \"nombreProfesor\": \"Maria\",\n            \"apellidosProfesor\": \"Suarez\",\n            \"correo\": \"msuarez@academia.com\"\n        },\n        \"materia\": {\n            \"id\": 1,\n            \"nombreMateria\": \"Matematicas\",\n            \"descMateria\": \"Ciencias matematicas\"\n        }\n    },\n    {\n        \"id\": 3,\n        \"codAula\": \"AULA0003\",\n        \"fechaHoraRegistro\": \"2023-04-25 13:00\",\n        \"tema\": \"Ortografia basica\",\n        \"profesor\": {\n            \"id\": 3,\n            \"nombreProfesor\": \"Jose\",\n            \"apellidosProfesor\": \"Gonzalez\",\n            \"correo\": \"jgonzalez@academia.com\"\n        },\n        \"materia\": {\n            \"id\": 2,\n            \"nombreMateria\": \"Lenguaje\",\n            \"descMateria\": \"Idioma espannol\"\n        }\n    },\n    {\n        \"id\": 4,\n        \"codAula\": \"AULA0004\",\n        \"fechaHoraRegistro\": \"2023-04-25 15:00\",\n        \"tema\": \"Gramatica basica\",\n        \"profesor\": {\n            \"id\": 2,\n            \"nombreProfesor\": \"Maria\",\n            \"apellidosProfesor\": \"Suarez\",\n            \"correo\": \"msuarez@academia.com\"\n        },\n        \"materia\": {\n            \"id\": 2,\n            \"nombreMateria\": \"Lenguaje\",\n            \"descMateria\": \"Idioma espannol\"\n        }\n    },\n    {\n        \"id\": 5,\n        \"codAula\": \"AULA0005\",\n        \"fechaHoraRegistro\": \"2023-04-25 16:00\",\n        \"tema\": \"Fisica elemental\",\n        \"profesor\": {\n            \"id\": 1,\n            \"nombreProfesor\": \"Juan\",\n            \"apellidosProfesor\": \"Perez\",\n            \"correo\": \"jperez@academia.com\"\n        },\n        \"materia\": {\n            \"id\": 3,\n            \"nombreMateria\": \"Ciencias\",\n            \"descMateria\": \"Ciencias naturales\"\n        }\n    }\n]"
+						}
+					]
 				},
 				{
 					"name": "GET - Aula",

@@ -6,6 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 //import com.tinexlab.academia.business.entity.Venta;
 import com.tinexlab.academia.security.util.Role;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Pattern;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.ColumnDefault;
@@ -25,6 +26,7 @@ public class User {
     private Long id;
     private String username;
     private String password;
+    @Pattern(regexp = "\\w[a-z0-9_.]+@[a-z0-9_.]+.[a-z]{2,3}.[a-z]{2,3}", message = "no presenta un correo válido")
     private String email;
     @Column(name = "nombre_usuario")
     private String name;
