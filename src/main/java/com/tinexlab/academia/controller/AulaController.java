@@ -1,29 +1,13 @@
 package com.tinexlab.academia.controller;
 
 import com.tinexlab.academia.model.dto.request.AulaRequest;
-import com.tinexlab.academia.model.entity.Aula;
-import com.tinexlab.academia.model.entity.Materia;
-import com.tinexlab.academia.model.entity.Profesor;
-import com.tinexlab.academia.model.repository.AulaRepository;
-import com.tinexlab.academia.model.repository.MateriaRepository;
-import com.tinexlab.academia.model.repository.ProfesorRepository;
 import com.tinexlab.academia.service.AulaService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataAccessException;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api")
