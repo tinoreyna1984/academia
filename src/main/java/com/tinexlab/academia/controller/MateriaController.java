@@ -2,6 +2,7 @@ package com.tinexlab.academia.controller;
 
 import com.tinexlab.academia.model.dto.request.MateriaRequest;
 import com.tinexlab.academia.service.MateriaService;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
+@SecurityRequirement(name = "bearerAuth")
 public class MateriaController {
 
     @Autowired
